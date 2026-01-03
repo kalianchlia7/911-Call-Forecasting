@@ -29,18 +29,17 @@ Goal: identify trends, seasonal patterns, and high-risk days to support data-dri
 
 ## Results
 
-| Metric           | ARIMA | LSTM |
-|-----------------|-------|------|
-| RMSE             | 45.8  | 39.4 |
-| Improvement (%)  | -     | 14%  |
+| Metric           | ARIMA    | LSTM       |
+|-----------------|----------|------------|
+| RMSE             | 493.02   | 303.94     |
+| Improvement (%)  | -        | 38.35%     |
 
-- **High-Risk Days:** Identified dates with unusually high call volumes.
-- **Plots:** Outcomes available in uploaded files
+- **High-Risk Days:** Identified dates with unusually high call volumes. 
 
 ---
 
 ## Outputs
-Saved in `outputs/`:
+Saved in `OutcomePlots/`:
 - Forecast plots (`plot_*.png`)  
 - Predictions (`arima_predictions.csv`, `lstm_predictions.csv`)  
 - Trained model (`lstm_model.h5`)  
