@@ -1,0 +1,5 @@
+MODEL PERFORMANCE METRICS
+---------------------------------
+ARIMA RMSE: 493.02
+LSTM RMSE: 303.94
+LSTM Improvement (%): 38.35%
